@@ -32,7 +32,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/LakshaySindhu/youtube-ask-tube.git
 cd youtube-ask-tube
 ```
 
@@ -105,29 +105,3 @@ youtube-ask-tube/
 - Answers are based **solely on the video transcript** — no external knowledge is used
 - Transcripts are capped at **50,000 characters** per Gemini API call
 
----
-
-## 🔒 Security Note
-
-Never commit your `.streamlit/secrets.toml` file to version control. Add it to `.gitignore`:
-
-```
-.streamlit/secrets.toml
-ytenv/
-```
-
----
-
-## 📦 Dependencies
-
-```
-streamlit
-youtube-transcript-api
-google-generativeai
-```
-
----
-
-## 🙏 Acknowledgements
-
-Built with ❤️ using [Streamlit](https://streamlit.io) & [Google Gemini AI](https://deepmind.google/technologies/gemini/).
